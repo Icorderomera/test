@@ -1,0 +1,16 @@
+ejercicio1
+lunes = {"Trabajo" :['empleo1','empleo2','empleo3'],
+         "Cocinar":['desayuno','almuerzo','merienda'],
+        "Comprar" :['pan','queso','cafe'],
+        "Estudiar":['IA','Robotica','Bioelectronica'],
+        "Deberes":['Limpieza','universidad'],
+        "Dormir":['15minutos','30minutos','8horas']}
+print(lunes)
+
+
+
+ejercicio2
+print(lunes.keys())
+for i in lunes.keys():
+    print ("Actividad " + i)
+    print ("Tareas " , lunes[i])
